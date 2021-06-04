@@ -327,6 +327,10 @@ footer{
     h2,h4{
         margin-bottom: .7em;
     }
+
+    h2{
+        font-size: 30px;
+    }
     
     h4{
         font-size: 18px;
@@ -366,7 +370,7 @@ footer{
 }
 
 .nav ul li{
-    margin-right: 1em;
+    margin-right: .5em;
 }
 
 header{
@@ -389,7 +393,7 @@ article > img{
 
 header > img{
     padding: 1em;
-    width: 200px;
+    width: 150px;
     margin-bottom: 2em;
 }
 
