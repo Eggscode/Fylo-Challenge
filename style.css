@@ -324,7 +324,7 @@ footer{
 
 /* --------------Mobile phone mode---------- */
 
-@media (max-width:411px){
+@media (max-width:416px){
     h2,h4{
         margin-bottom: .7em;
     }
@@ -351,9 +351,9 @@ footer{
     }
 
     .subscribe{
-        max-width: 230px;
+        max-width: 300px;
         top: -11em;
-        padding: .5em .5em;
+        padding: 1em 1em;
     }
 
     .subscribe > span{
