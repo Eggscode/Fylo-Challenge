@@ -323,7 +323,7 @@ footer{
 
 /* --------------Mobile phone mode---------- */
 
-@media (max-width:375px){
+@media (max-width:411px){
     h2,h4{
         margin-bottom: .7em;
     }
@@ -341,15 +341,18 @@ footer{
         line-height: 1.5em;
     }
     
+    span{
+        padding: .5em 2em;
+    }
 
     input{
         padding: .5em 1em;
     }
 
     .subscribe{
-        max-width: 300px;
+        max-width: 230px;
         top: -11em;
-        padding: 1em 1em;
+        padding: .5em .5em;
     }
 
     .subscribe > span{
@@ -366,11 +369,12 @@ footer{
 }
 
 .nav > img{
-    width: 100px;
+    width: 80px;
 }
 
 .nav ul li{
     margin-right: .5em;
+    font-size: 12px;
 }
 
 header{
@@ -389,11 +393,12 @@ article{
 article > img{
     padding: 1em;
     margin: 0;
+    width: 180px;
 }
 
 header > img{
     padding: 1em;
-    width: 150px;
+    width: 180px;
     margin-bottom: 2em;
 }
 
