@@ -217,11 +217,9 @@ input{
 
 #bottom{
     display: grid;
-    grid-template-columns: repeat(4, 1fr );
+    grid-template-columns: repeat(5, 1fr );
     grid-gap: 4em;
 }
-
-
 
 .contact li{
     list-style: none;
@@ -244,6 +242,13 @@ dl{
 
 #bottom > li{
     list-style: none;
+}
+
+li div{
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 2px solid white;
+    padding: 2px;
 }
 
 /* -----------Tablet mode----------- */
